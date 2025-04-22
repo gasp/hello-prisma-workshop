@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npx tsx src/main.ts",
-    "migrate:prod": "npx prisma migrate deploy"
+    "start:prod": "node src/main.js",
+    "migrate:prod": "npx prisma migrate deploy",
+    "build": "npx tsc src/main.ts"
   },
   "keywords": [],
   "author": "",
